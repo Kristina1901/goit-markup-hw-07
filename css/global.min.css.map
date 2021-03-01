@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,CAAC,CACD,CAAC,AAAA,QAAQ,CACT,CAAC,AAAA,OAAO,AAAC,CACP,UAAU,CAAE,UAAU,CAEvB,AACD,AAAA,GAAG,AAAC,CACA,OAAO,CAAE,KAAK,CACd,SAAS,CAAE,IAAI,CACf,MAAM,CAAE,IAAI,CACX",
+    "sources": [
+        "../sass/base/global.scss"
+    ],
+    "names": [],
+    "file": "global.min.css"
+}
