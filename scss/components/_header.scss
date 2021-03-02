@@ -1,5 +1,5 @@
 .main-menu{
-    background:$active-color;
+    background:var(--active-color);
     border: 1px solid #ECECEC;
     }
 .container {
@@ -26,8 +26,13 @@
 }   
 .link {
         position: relative;
+        font-family: Roboto;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;
         display: block;
-        color:$main-color;
+        letter-spacing: 0.02em;
+        color:var(--main-color);
         padding-bottom: 32px;    
         padding-top: 32px;  
         transition-property: color;
@@ -36,7 +41,7 @@
        }
    .link:hover, 
    .link:focus {
-     color:$accent-color;
+     color:var(--accent-color);
     }
      .link::after {
         content:"" ;
@@ -57,7 +62,7 @@
         opacity: 1;
     }
     .current{
-        color:$accent-color;
+        color:var(--accent-color);
     } 
     .current::after {
         content:"" ;
@@ -72,14 +77,14 @@
         opacity: 1;
     }
     .logo-web{
-        color: $accent-color;
+        color: var(--accent-color);
         font-family: Raleway;
         font-weight: bold;
         font-size: 26px;
         line-height: 1.19;
     }
     .logo-studio{
-        color:$logo-color;
+        color:var(--logo-color);
         font-family: Raleway;
         font-weight: bold;
         font-size: 26px;
@@ -87,7 +92,12 @@
         text-decoration: none; 
     }
     .tel-mail-title a {
-        color:$inactive-color;
+        font-family: Roboto;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.02em;
+        color:var(--inactive-color);
         display: flex;
         align-items: center;
         padding-bottom: 32px;    
