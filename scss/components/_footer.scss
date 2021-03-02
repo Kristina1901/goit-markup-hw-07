@@ -21,16 +21,12 @@
      text-decoration: none;
  }
  .company-address {
-     font-family: Roboto;
-     font-size: 14px;
      line-height: 1.71;
      letter-spacing: 0.03em;
      color:var(--active-color);
      margin-top: 20px;
  }
  .tel-mail {
-       font-family: Roboto;
-       font-size: 14px;
        line-height: 1.71;
        letter-spacing: 0.03em;
        color:var(--inactive-color);
@@ -47,17 +43,19 @@
  .link-logo {
      display: block;
  }
- .container-icons >p{
-     font-family: Roboto;
-     font-style: normal;
+ .container-icons {
+    margin-left: 70px;
+ 
+    &__ p{
      font-weight: bold;
-     font-size: 14px;
      line-height: 16px;
      letter-spacing: 0.03em;
      text-transform: uppercase;
      color: #FFFFFF;
      margin-bottom: 20px;
  }
+}
+
  .contact-list-icons {
      display: flex;
      align-items: center;
@@ -67,10 +65,11 @@
      width: 44px;
      margin-right: 10px;
      fill: var(--active-color);
- }
- .contact-icons:last-child {
+ 
+     &:last-child {
      margin-right: 0;
  } 
+}
  .contact-list-link {
      border-radius: 50%;
      height: 44px;
@@ -84,33 +83,30 @@
      transition-property: background-color;
      transition-duration: 250ms;
      transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-     }
- .contact-list-link:hover,
- .contact-list-link:focus {
+    
+     &:hover,
+     &:focus {
   background-color: var(--accent-color);
- }    
+ } 
+ }  
   .contact-icons-footer {
       height: 20px;
       width: 20px;
       fill: #FFFFFF;
   } 
- .container-icons {
-     margin-left: 70px;
- }  
- .subscribe {
+  .subscribe {
      margin-left: 93px;
      position: relative;
-   }
-    .subscribe >p {
-     font-family: Roboto;
+  
+   &__ p {
      font-weight: bold;
-     font-size: 14px;
      line-height: 16px;
      letter-spacing: 0.03em;
      text-transform: uppercase;
      color: var(--active-color);
      margin-bottom: 20px;
  }
+}
  .footer-submit-input {
      margin-right: 12px;
      border: 1px solid rgba(255, 255, 255, 0.3);
@@ -137,22 +133,3 @@
      top: 30%;
      translate:Y(-30%);
      }
- .btn-subscribe {
-     min-width: 200px;
-     position: relative;
-     background-color: var(--accent-color);
-     box-shadow: 0px 4px 4px rgb(0 0 0 / 15%);
-     border: none;
-     border-radius: 4px;
-     padding-top: 10px;
-     padding-bottom: 10px;
-     padding-right: 29px;
-     padding-left: 13px;
-     font-weight: 700;
-     font-size: 16px;
-     line-height: 1.87;
-     text-align: center;
-     letter-spacing: 0.06em;
-     color: #ffffff;
-     transition: background-color var(--time-hover) cubic-bezier(0.4, 0, 0.2, 1);
-    }

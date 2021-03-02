@@ -56,7 +56,6 @@
       margin-right: 0px;
   }
  .our-team-header {
-    font-family: Roboto;
     font-size: 36px;
     font-weight: bold;
     line-height: 1.17;
@@ -66,16 +65,13 @@
     margin-bottom: 50px;
    }
 .name {
-   font-family: Roboto;
    font-size: 16px;
-   font-weight: 500;
    line-height: 1.19;
    letter-spacing: 0.03em;
    color: var(--main-color);
    margin-bottom: 10px;
    }
 .profession {
-    font-family: Roboto;
     font-size: 16px;
     line-height: 1.19;
     letter-spacing: 0.03em;
@@ -93,11 +89,12 @@
         transition-property: background-color;
         transition-duration: 250ms;
         transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-        }
-    .our-team-link:hover,
-    .our-team-link:focus {
+        
+    &:hover,
+    &:focus {
         background-color: var(--accent-color);
        } 
+    }   
     .our-team-link-list {
         height: 44px;
         width: 44px;

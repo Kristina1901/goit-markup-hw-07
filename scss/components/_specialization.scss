@@ -24,16 +24,15 @@ margin-right: 30px;
 }
 .specialization-item :last-child {
     margin-right: 0px;
-}
-.specialization-list p {
-    font-family: Roboto;
+
+    &__ p {
     font-weight: bold;
-    font-size: 14px;
     line-height: 1.14;
     text-align: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--active-color);
+}
 }
 .specialization-item {
     position: relative;

@@ -4,7 +4,6 @@
     padding-bottom: 94px;
     }    
 .clients-header {
-    font-family: Roboto;
    font-size: 36px;
    font-style: normal;
    font-weight: 700;
@@ -30,11 +29,12 @@
     transition-property: border;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+   
+    & :focus,
+    & :hover {
+    border: 1px solid var(--accent-color);}
 }
-.clients-link:focus,
-.clients-link:hover{
-    border: 1px solid var(--accent-color);
-}
+
 .clients-link:focus .current,
 .clients-link:hover .current {
         fill: var(--accent-color);
@@ -99,7 +99,7 @@
     fill: #AFB1B8;
     width: 170px;
     height: 90px;
-}
-.clients-icon:hover{
-   fill: #2196f3;
+   
+   &:hover{
+   fill: #2196f3;}
 } 
